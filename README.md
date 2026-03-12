@@ -1,23 +1,22 @@
-# **Palindrome Checker App**
+# Palindrome Checker App
 
-## **Project Flow**
+## Project Flow
 
 1. **Start Application:**
-
     * User opens the app, and the program starts execution from the `main()` method.
+
 2. **Display Welcome Message:**
-
     * The application displays a welcome banner, application name, and version.
+
 3. **Establish Startup Flow:**
-
     * This first use case ensures that the application starts properly and the basic structure is working.
-4. **Future Use Cases:**
 
+4. **Future Use Cases:**
     * In subsequent versions, the application will implement logic to check whether a string is a palindrome (user input or hardcoded strings).
 
 ---
 
-## **Objective**
+## Objective
 
 The goal of this project is to create a **Java-based Palindrome Checker Management System** that:
 
@@ -28,13 +27,12 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 
 ---
 
-## **Use Case 1: Application Startup & Welcome Message**
+## Use Case 1: Application Startup & Welcome Message
 
 **Description:**
 
 * This use case focuses on the **initial setup of the application**.
 * At this stage:
-
     * The application starts execution from the `main()` method.
     * A **welcome message** is displayed in the console.
     * The application **version** is shown.
@@ -44,3 +42,32 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 
 * To **verify that the project structure is correct**.
 * To provide a **clear starting point** for further development.
+
+---
+
+## Use Case 2: Hardcoded Palindrome Check
+
+**Description:**
+
+* This use case focuses on checking whether a **hardcoded string** is a palindrome.
+* At this stage:
+    * The program starts execution from the `main()` method.
+    * A **hardcoded string** (e.g., `"madam"`) is checked for palindrome.
+    * The result is displayed on the console.
+    * The program then exits.
+
+**Purpose:**
+
+* To **demonstrate palindrome checking logic** using a predefined string.
+* To introduce **basic Java programming concepts** such as:
+    * **Class** – A container for program logic.
+    * **Main Method** – Entry point of the Java application.
+    * **Static Keyword** – Allows JVM to call `main` without creating an object.
+    * **String** – Stores the word to be checked.
+    * **String Literal** – Hardcoded text like `"madam"`.
+    * **Conditional Statement (if-else)** – Checks whether the string is a palindrome.
+    * **Console Output** – Displays the result using `System.out.println()`.
+
+**Data Structure:**
+
+* **String**
