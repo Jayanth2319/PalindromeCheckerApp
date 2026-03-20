@@ -236,3 +236,42 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 4. Remove front and rear elements after comparison.
 5. Continue until deque is empty.
 6. Display whether the string is a palindrome.
+
+## Use Case 8: Linked List Based Palindrome Checker
+
+**Description:**
+
+* This use case checks whether a string is a palindrome using a **Singly Linked List**.
+* At this stage:
+  * The input string is converted into a linked list.
+  * The **fast and slow pointer technique** is used to find the middle of the list.
+  * The **second half of the list is reversed in-place**.
+  * Both halves are compared node by node.
+  * The result is displayed on the console.
+
+---
+
+**Purpose:**
+
+* To demonstrate palindrome checking using a **linked list data structure**.
+* To introduce advanced **data structure techniques**:
+  * **Singly Linked List** – Nodes connected via references.
+  * **Fast & Slow Pointer Technique** – Efficient middle detection.
+  * **In-Place Reversal** – Memory-efficient list reversal.
+  * **Node Traversal** – Sequential access using `next`.
+
+---
+
+**Data Structure:**
+
+* **Singly Linked List**
+
+---
+
+**Flow:**
+
+1. Convert input string into a linked list.
+2. Find the middle using fast and slow pointers.
+3. Reverse the second half of the list.
+4. Compare first half and reversed second half.
+5. Display whether the string is a palindrome.
