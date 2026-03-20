@@ -275,3 +275,40 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. Reverse the second half of the list.
 4. Compare first half and reversed second half.
 5. Display whether the string is a palindrome.
+
+## Use Case 9: Recursive Palindrome Checker
+
+**Description:**
+
+* This use case checks whether a string is a palindrome using **recursion**.
+* At this stage:
+  * The program compares characters at the start and end.
+  * Recursively checks the remaining substring.
+  * Stops when base condition is reached.
+  * Displays the result on the console.
+
+---
+
+**Purpose:**
+
+* To demonstrate **recursive problem-solving approach**.
+* To introduce key concepts:
+  * **Recursion** – Function calling itself
+  * **Base Condition** – Stops recursion
+  * **Call Stack** – Tracks recursive calls
+
+---
+
+**Data Structure:**
+
+* **Call Stack**
+
+---
+
+**Flow:**
+
+1. Compare first and last characters.
+2. If equal → recursive call for inner substring.
+3. If mismatch → not palindrome.
+4. Stop when start >= end.
+5. Display result.
