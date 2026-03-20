@@ -351,3 +351,39 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. Convert string to lowercase.
 4. Compare characters using two-pointer method.
 5. Display result.
+
+## Use Case 11: Object-Oriented Palindrome Service
+
+**Description:**
+
+* This use case encapsulates palindrome logic inside a dedicated service class.
+* At this stage:
+  * A `PalindromeChecker` class is created.
+  * The method `checkPalindrome()` is exposed for external use.
+  * Internal logic is hidden using private methods.
+  * The main class interacts with the service class.
+
+---
+
+**Purpose:**
+
+* To demonstrate **Object-Oriented Programming (OOPS)** principles:
+  * **Encapsulation** – Hiding internal logic
+  * **Single Responsibility Principle** – One class, one responsibility
+  * **Modular Design** – Reusable components
+
+---
+
+**Data Structure:**
+
+* Internal (String / Two-pointer / Optional Stack)
+
+---
+
+**Flow:**
+
+1. User enters input.
+2. Main class creates object of `PalindromeChecker`.
+3. Calls `checkPalindrome()` method.
+4. Internal logic processes input.
+5. Result is returned and displayed.
