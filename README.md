@@ -203,3 +203,36 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. Push each character onto a stack.
 4. Compare dequeued and popped characters.
 5. Display whether the string is a palindrome.
+
+## Use Case 7: Deque-Based Optimized Palindrome Checker
+
+**Description:**
+
+* This use case checks whether a string is a palindrome using a **Deque**.
+* At this stage:
+  * Characters are inserted into a deque.
+  * Compare the first and last elements.
+  * Remove the first and last elements after comparison.
+  * Continue until deque is empty.
+  * Display the result on the console.
+
+**Purpose:**
+
+* To demonstrate **Deque usage** for palindrome checking.
+* To introduce **key Java concepts**:
+  * **Deque (Double Ended Queue)** – Insert/remove elements from both ends.
+  * **Front and Rear Access** – Compare first and last characters directly.
+  * **Optimized Data Handling** – Avoids extra reversal structures.
+
+**Data Structure:**
+
+* **Deque<Character>**
+
+**Flow:**
+
+1. Prompt user to enter a string.
+2. Insert characters into deque.
+3. Compare front and rear elements.
+4. Remove front and rear elements after comparison.
+5. Continue until deque is empty.
+6. Display whether the string is a palindrome.
