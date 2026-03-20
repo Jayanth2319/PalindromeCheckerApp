@@ -426,3 +426,39 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. Selected strategy is injected into context.
 4. Strategy executes palindrome logic.
 5. Result is displayed.
+
+## Use Case 13: Performance Comparison
+
+**Description:**
+
+* This use case compares the performance of different palindrome algorithms.
+* At this stage:
+  * Multiple approaches (Reverse, Two-pointer, Stack) are executed.
+  * Execution time is measured using `System.nanoTime()`.
+  * Results are displayed for comparison.
+
+---
+
+**Purpose:**
+
+* To analyze **algorithm efficiency**.
+* To introduce:
+  * **Performance benchmarking**
+  * **Time complexity awareness**
+  * **Optimization thinking**
+
+---
+
+**Data Structure:**
+
+* String, Stack
+
+---
+
+**Flow:**
+
+1. Accept input string.
+2. Normalize string.
+3. Run multiple palindrome methods.
+4. Measure execution time.
+5. Display results.
