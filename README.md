@@ -71,3 +71,36 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 **Data Structure:**
 
 * **String**
+
+---
+
+## Use Case 3: Palindrome Check Using String Reverse
+
+**Description:**
+
+* This use case checks whether a string is a palindrome by **reversing the string**.
+* At this stage:
+    * The program asks the user to **enter a string**.
+    * The string is reversed using a **for loop**.
+    * The reversed string is compared to the original using the **`equals()` method**.
+    * The result is displayed on the console.
+
+**Purpose:**
+
+* To demonstrate **palindrome checking logic** using **string reversal**.
+* To introduce **key Java concepts**:
+    * **Loop (for loop)** – Iterates through string characters in reverse order.
+    * **String Immutability** – Each modification creates a new string object.
+    * **String Concatenation (+)** – Builds the reversed string character by character.
+    * **equals() Method** – Compares the content of strings rather than references.
+
+**Data Structure:**
+
+* **String**
+
+**Flow:**
+
+1. Prompt user to enter a string.
+2. Reverse the string using a loop.
+3. Compare the original and reversed strings.
+4. Display whether the string is a palindrome.
