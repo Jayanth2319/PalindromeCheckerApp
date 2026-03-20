@@ -387,3 +387,42 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. Calls `checkPalindrome()` method.
 4. Internal logic processes input.
 5. Result is returned and displayed.
+
+## Use Case 12: Strategy Pattern for Palindrome Algorithms
+
+**Description:**
+
+* This use case implements multiple palindrome algorithms using the **Strategy Pattern**.
+* At this stage:
+  * A common interface `PalindromeStrategy` is defined.
+  * Multiple implementations (Stack, Deque) are created.
+  * Strategy is selected dynamically at runtime.
+  * Context class executes the selected strategy.
+
+---
+
+**Purpose:**
+
+* To demonstrate advanced **design patterns**:
+  * **Strategy Pattern**
+  * **Polymorphism**
+  * **Loose Coupling**
+  * **Extensibility**
+
+---
+
+**Data Structure:**
+
+* Varies per strategy:
+  * Stack
+  * Deque
+
+---
+
+**Flow:**
+
+1. User selects a strategy.
+2. Input string is taken.
+3. Selected strategy is injected into context.
+4. Strategy executes palindrome logic.
+5. Result is displayed.
