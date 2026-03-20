@@ -138,3 +138,34 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 4. Compare characters at start and end pointers.
 5. Move pointers inward until they meet.
 6. Display whether the string is a palindrome.
+
+## Use Case 5: Stack-Based Palindrome Checker
+
+**Description:**
+
+* This use case checks whether a string is a palindrome using a **stack**.
+* At this stage:
+  * The program asks the user to **enter a string**.
+  * Each character is pushed into a stack.
+  * Characters are popped from the stack and compared to the original string.
+  * The result is displayed on the console.
+
+**Purpose:**
+
+* To demonstrate **palindrome checking logic** using a **stack**.
+* To introduce **key Java concepts**:
+  * **Stack (LIFO)** – Last-In-First-Out linear data structure.
+  * **Push Operation** – Adds characters to the stack.
+  * **Pop Operation** – Removes characters from the stack in reverse order.
+  * **Reversal Logic** – Stack naturally reverses the order of elements for comparison.
+
+**Data Structure:**
+
+* **Stack<Character>**
+
+**Flow:**
+
+1. Prompt user to enter a string.
+2. Push characters into the stack.
+3. Pop characters and compare with original string.
+4. Display whether the string is a palindrome.
