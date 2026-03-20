@@ -1,3 +1,4 @@
+// UC3: Palindrome check using string reverse method
 import java.util.Scanner;
 
 public class UseCase3PalindromeCheckerApp {
