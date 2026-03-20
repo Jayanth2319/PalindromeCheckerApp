@@ -169,3 +169,37 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 2. Push characters into the stack.
 3. Pop characters and compare with original string.
 4. Display whether the string is a palindrome.
+
+## Use Case 6: Queue + Stack Based Palindrome Check
+
+**Description:**
+
+* This use case checks whether a string is a palindrome using both **Queue and Stack**.
+* At this stage:
+  * Characters are enqueued into a queue (FIFO).
+  * Characters are pushed onto a stack (LIFO).
+  * Compare elements dequeued from the queue and popped from the stack.
+  * Display the result on the console.
+
+**Purpose:**
+
+* To demonstrate **FIFO vs LIFO** behavior using Queue and Stack.
+* To introduce **key Java concepts**:
+  * **Queue (FIFO)** – First-In-First-Out linear data structure.
+  * **Stack (LIFO)** – Last-In-First-Out linear data structure.
+  * **Enqueue & Dequeue** – Insert/remove elements from the queue.
+  * **Push & Pop** – Add/remove elements from the stack.
+  * **Logical Comparison** – Comparing queue vs stack output for palindrome validation.
+
+**Data Structures:**
+
+* **Queue<Character>**
+* **Stack<Character>**
+
+**Flow:**
+
+1. Prompt user to enter a string.
+2. Enqueue each character into a queue.
+3. Push each character onto a stack.
+4. Compare dequeued and popped characters.
+5. Display whether the string is a palindrome.
