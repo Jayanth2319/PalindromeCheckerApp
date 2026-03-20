@@ -312,3 +312,42 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 3. If mismatch → not palindrome.
 4. Stop when start >= end.
 5. Display result.
+
+## Use Case 10: Case-Insensitive & Space-Ignored Palindrome
+
+**Description:**
+
+* This use case checks whether a string is a palindrome by ignoring **case, spaces, and special characters**.
+* At this stage:
+  * The input string is preprocessed using regular expressions.
+  * All non-alphanumeric characters are removed.
+  * The string is converted to lowercase.
+  * A two-pointer approach is used to check palindrome.
+  * The result is displayed on the console.
+
+---
+
+**Purpose:**
+
+* To demonstrate **real-world palindrome validation**.
+* To introduce key concepts:
+  * **String Preprocessing**
+  * **Regular Expressions (Regex)**
+  * **Case Normalization**
+  * **Efficient Two-Pointer Technique**
+
+---
+
+**Data Structure:**
+
+* **String / Character Array**
+
+---
+
+**Flow:**
+
+1. Accept input string.
+2. Remove spaces and special characters.
+3. Convert string to lowercase.
+4. Compare characters using two-pointer method.
+5. Display result.
