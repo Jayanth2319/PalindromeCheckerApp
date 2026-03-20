@@ -104,3 +104,37 @@ The goal of this project is to create a **Java-based Palindrome Checker Manageme
 2. Reverse the string using a loop.
 3. Compare the original and reversed strings.
 4. Display whether the string is a palindrome.
+
+## Use Case 4: Character Array Based Palindrome Check
+
+**Description:**
+
+* This use case checks whether a string is a palindrome by **converting it to a character array** and comparing characters.
+* At this stage:
+    * The program asks the user to **enter a string**.
+    * The string is converted to a `char[]` array.
+    * Two pointers are used: one at the start and one at the end.
+    * Characters are compared until the pointers meet or a mismatch is found.
+    * The result is displayed on the console.
+
+**Purpose:**
+
+* To demonstrate **palindrome checking logic** using **character arrays**.
+* To introduce **key Java concepts**:
+    * **Character Array (char[])** – Stores individual characters for index-based access.
+    * **Array Indexing** – Access elements using their indices.
+    * **Two-Pointer Technique** – Efficiently compare characters from both ends.
+    * **Time Complexity Awareness** – Avoids creating extra objects, more efficient than string reversal.
+
+**Data Structure:**
+
+* **char[]**
+
+**Flow:**
+
+1. Prompt user to enter a string.
+2. Convert string to char array.
+3. Initialize two pointers (start and end).
+4. Compare characters at start and end pointers.
+5. Move pointers inward until they meet.
+6. Display whether the string is a palindrome.
